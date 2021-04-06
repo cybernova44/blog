@@ -1,0 +1,70 @@
+body{margin:0;}
+.wrapper{
+	max-width: 1000px;
+	margin:auto;
+	font-family: "Lato",sans-serif;
+
+	color: #545454;
+}
+.right {
+	float: right;
+	width: 48%;
+}
+.product {
+	margin: 40px auto 0 auto;
+	position: relative;
+}
+.prod {
+	width: auto;
+	max-width:100%;
+	margin: 10px auto 0;
+	display:block;max-height:370px;
+}
+.prod-info {
+	width:90%;
+	text-align: center;
+	margin:auto;
+	text-decoration: none;
+	font-size: 14px;
+}
+.productPrice{text-align:center;font-size: 30px;font-weight: bold; color: #55aa00}
+.productPrice span{text-decoration: line-through;font-size: 25px; color: #ef0000;}
+.left p{margin:0 0 15px;padding:0 20px;}
+.left{padding:20px 0 0;}
+.address-pane-table{margin:0 20px 10px;width:auto;}
+h1.order-headline{margin:15px 0 15px 20px;}
+div.line{margin:0;clear:both;}
+.address-pane-table td{padding:3px 0;}
+.address-pane-table input[type="text"], .address-pane-table select, .address-pane-table textarea{padding:5px;font-size:14px;border-radius:3px;}
+.textforphone{text-align:right;float:right;margin:18px 20px 20px 20px;font-size:15px;}
+.order-headline{float:left;}
+.right #product{margin:40px auto 0;width:auto;}
+.fbutton{margin: 0 20px 20px;width:auto;}
+#button{width:100%;outline:0;}
+#button:hover{background:#059c27;}
+#button{width:55%;}
+.productBox{text-align:center;}
+.satisfaction{top: 0;right: 0;position: absolute;width:100px;}
+.imgArea{display:inline-block;margin:auto;position:relative;}
+.mob{display:none;}
+@media (max-width:768px){
+	.right{float:left;}
+	.line{display:none;}
+	.left,.right,h1.order-headline,.textforphone{float:none;width:auto;}
+	.textforphone{text-align:center;}
+	h1.order-headline{margin-bottom:30px;}
+	.left{border-top:1px solid #e5e5e5;}
+	.right{margin-bottom:20px;}
+}
+@media (max-width:430px){
+	.address-pane-table td, .address-pane-table tr, .address-pane-table table{display:block;}
+	.address-pane-table td, .address-pane-table td.field-label{width:auto;}
+	#button{width:100%;}
+}
+.left p.bigger-pink{color:#239c45} .address-pane-table .form-required{color:#d43f3a;}
+#coddiv label{
+	display: block;
+}
+label[for="personal_data"]{
+	font-size: 12px;
+}

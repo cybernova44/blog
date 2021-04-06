@@ -1,0 +1,32 @@
+h1.order-headline{font-size:29px;margin:5px 0 0 30px;line-height:1.2em;float:left;}
+div.line{background-color:#dcdcdc;height:1px;margin:25px 0 0 0;clear:both;}
+.left{background-color:#f9f9f9;float:left;width:52%;}
+.left p.bigger-pink{color:#e5007e;font-size:18px;font-weight:bold;}
+.left p{margin:30px 30px 0;}
+.textphone{text-align:center;}
+.textphone a{display:block;margin:3px auto 0;text-decoration:none;font-size:1.2em;color:#909090;font-family:sans-serif;}
+.textphone a:hover{text-decoration:underline;}
+.address-pane-table{width:90%;margin:2em auto 1em;}
+.address-pane-table .form-required{color:#e5007e;}
+.address-pane-table .info, .address-pane-table td br{display:none;}
+.address-pane-table #cod_pay_div{display:block;}
+.address-pane-table table{width:100%;margin:auto;}
+.address-pane-table td{width:55%;padding:7px 0;}
+.address-pane-table td.field-label{width:45%;}
+.address-pane-table input[type="text"], .address-pane-table select, .address-pane-table textarea{width:100%!important;border:1px solid #cbcad0;border-radius:5px;font-size:18px;padding:10px;position:relative;box-sizing:border-box;}
+.address-pane-table #delivery .field-label, .address-pane-table #form-pay .field-label, .address-pane-table #pay-form .field-label{vertical-align:top;}
+.address-pane-table #delivery .field-label,
+.address-pane-table #pay-form .field-label{padding-top:10px;}
+#button{background-color:#00ab27;border:1px solid #cbcad0;padding:10px 0 15px 0;text-align:center;width:306px;display:block;text-decoration:none;border-radius:5px;cursor:pointer;margin:0 0 0 auto;}
+ #button p{color:#ffffff;font-size:14px;padding:0;margin:0;}
+ #button .order{font-size:22px;font-weight:bold;}
+#coddiv, .info{font-size:11px;}
+.fbutton{text-align:right;width:90%;margin:1.5em auto;}
+.left .rights{font-size:12px;font-style:italic;text-align:center;background-color:#ffffff;padding:20px 0 50px 0;}
+.left .rights br{display:none;}
+.textforphone {
+    text-align: right;
+    float: right;
+    margin: 15px 20px 25px 20px;
+    font-size: 15px;
+}
