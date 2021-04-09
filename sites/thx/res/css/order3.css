@@ -1,0 +1,157 @@
+body {
+
+}
+
+.container {
+    display: flex;
+    background: url('../img/bgtyp.jpg') no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-family: "Open Sans Condensed", sans-serif;
+    letter-spacing: 0;
+}
+
+.header-wrapper {
+    position: relative;
+}
+
+.header-wrapper img {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.main {
+    margin: 5% auto;
+    display: flex;
+    max-width: 850px;
+    box-sizing: border-box;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #157072;
+}
+
+img {
+    max-height: 200px;
+    max-width: 140px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    max-width: 70%;
+    margin: 20px 0;
+    opacity: .8;
+    line-height: 24px;
+    text-shadow: 0 0;
+    font-size: 16px;
+}
+
+.details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 16px;
+    border-top: 1px solid;
+}
+
+table {
+    text-align: justify;
+    width: calc(75% - 5px);
+    font-size: 16px;
+    border-top: 1px solid;
+    padding-top: 20px;
+}
+
+.address span {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+
+tbody {
+    line-height: 35px;
+}
+
+.header {
+    height: 25px;
+    font-size: 18px;
+    color: #157072;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+thead tr {
+    padding-top: 20px;
+}
+
+tr td:last-of-type, th:last-of-type {
+    text-align: right;
+    vertical-align: middle;
+}
+
+tr td:nth-of-type(2) {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin: 10px 0;
+}
+
+.sign {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 28px;
+}
+
+/*MOBILE SECTION*/
+@media all and (max-width: 999px) {
+
+    .main.wrapper {
+        max-width: calc(100% - 20px);
+    }
+    .main .details{
+        flex-direction: column;
+    }
+
+    .main .details {
+        margin: 0 auto;
+    }
+    .main .address {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main p {
+        max-width: 100%;
+    }
+
+    .main table {
+        width: 100%;
+    }
+
+    img {
+        display: none;
+    }
+
+}
+
+/*/MOBILE SECTION*/
